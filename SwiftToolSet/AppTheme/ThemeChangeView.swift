@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 17, *)
 struct ThemeChangeView: View {
     var scheme: ColorScheme
     @AppStorage("user_theme") private var userTheme: Theme = .systemDefault
