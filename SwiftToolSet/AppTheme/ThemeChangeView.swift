@@ -83,7 +83,7 @@ struct ThemeChangeView: View {
 }
 
 #Preview {
-    ThemeChangeView(scheme: .light)
+    TestThemeChangeView()
 }
 
 enum Theme: String, CaseIterable {
