@@ -15,6 +15,8 @@
 		4E1B30092BA12F3E00F30379 /* SwiftToolSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B30082BA12F3E00F30379 /* SwiftToolSetTests.swift */; };
 		4E1B30132BA12F3E00F30379 /* SwiftToolSetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B30122BA12F3E00F30379 /* SwiftToolSetUITests.swift */; };
 		4E1B30152BA12F3E00F30379 /* SwiftToolSetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B30142BA12F3E00F30379 /* SwiftToolSetUITestsLaunchTests.swift */; };
+		4E47D6542BA1AB7100C504C2 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47D6532BA1AB7100C504C2 /* ThemeChangeView.swift */; };
+		4E47D6582BA1B44400C504C2 /* TestThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47D6572BA1B44400C504C2 /* TestThemeChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4E1B300E2BA12F3E00F30379 /* SwiftToolSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToolSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1B30122BA12F3E00F30379 /* SwiftToolSetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToolSetUITests.swift; sourceTree = "<group>"; };
 		4E1B30142BA12F3E00F30379 /* SwiftToolSetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToolSetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E47D6532BA1AB7100C504C2 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
+		4E47D6572BA1B44400C504C2 /* TestThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestThemeChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		4E1B2FF32BA12F3D00F30379 /* SwiftToolSet */ = {
 			isa = PBXGroup;
 			children = (
+				4E47D6522BA1AB5000C504C2 /* AppTheme */,
 				4E1B2FF42BA12F3D00F30379 /* SwiftToolSetApp.swift */,
 				4E1B2FF62BA12F3D00F30379 /* ContentView.swift */,
 				4E1B2FF82BA12F3D00F30379 /* Item.swift */,
@@ -130,6 +135,15 @@
 				4E1B30142BA12F3E00F30379 /* SwiftToolSetUITestsLaunchTests.swift */,
 			);
 			path = SwiftToolSetUITests;
+			sourceTree = "<group>";
+		};
+		4E47D6522BA1AB5000C504C2 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				4E47D6532BA1AB7100C504C2 /* ThemeChangeView.swift */,
+				4E47D6572BA1B44400C504C2 /* TestThemeChangeView.swift */,
+			);
+			path = AppTheme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E47D6542BA1AB7100C504C2 /* ThemeChangeView.swift in Sources */,
 				4E1B2FF72BA12F3D00F30379 /* ContentView.swift in Sources */,
 				4E1B2FF92BA12F3D00F30379 /* Item.swift in Sources */,
 				4E1B2FF52BA12F3D00F30379 /* SwiftToolSetApp.swift in Sources */,
+				4E47D6582BA1B44400C504C2 /* TestThemeChangeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
