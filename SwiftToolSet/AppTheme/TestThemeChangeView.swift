@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 17, *)
 struct TestThemeChangeView: View {
     @State private var changeTheme: Bool = false
     @Environment(\.colorScheme) private var scheme

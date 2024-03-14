@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct MagnifyingClassHome: View {
     // Magnification Properties
     @State var scale: CGFloat = 0

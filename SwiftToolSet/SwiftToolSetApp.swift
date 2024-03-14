@@ -25,7 +25,8 @@ struct SwiftToolSetApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            HeaderAnimationHome()
         }
         .modelContainer(sharedModelContainer)
     }
