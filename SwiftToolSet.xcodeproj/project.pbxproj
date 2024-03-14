@@ -19,6 +19,7 @@
 		4E47D6582BA1B44400C504C2 /* TestThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47D6572BA1B44400C504C2 /* TestThemeChangeView.swift */; };
 		4E47D65B2BA1FB2D00C504C2 /* IndicatorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47D65A2BA1FB2D00C504C2 /* IndicatorHome.swift */; };
 		4E47D65D2BA1FD5500C504C2 /* PagingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47D65C2BA1FD5500C504C2 /* PagingIndicator.swift */; };
+		4E47D6602BA2A85500C504C2 /* MagnifyingClassHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47D65F2BA2A85500C504C2 /* MagnifyingClassHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4E47D6572BA1B44400C504C2 /* TestThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestThemeChangeView.swift; sourceTree = "<group>"; };
 		4E47D65A2BA1FB2D00C504C2 /* IndicatorHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorHome.swift; sourceTree = "<group>"; };
 		4E47D65C2BA1FD5500C504C2 /* PagingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingIndicator.swift; sourceTree = "<group>"; };
+		4E47D65F2BA2A85500C504C2 /* MagnifyingClassHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyingClassHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		4E1B2FF32BA12F3D00F30379 /* SwiftToolSet */ = {
 			isa = PBXGroup;
 			children = (
+				4E47D65E2BA2A7F200C504C2 /* MagnifyingClass */,
 				4E47D6592BA1FAB100C504C2 /* PagingIndicator */,
 				4E47D6522BA1AB5000C504C2 /* AppTheme */,
 				4E1B2FF42BA12F3D00F30379 /* SwiftToolSetApp.swift */,
@@ -158,6 +161,14 @@
 				4E47D65C2BA1FD5500C504C2 /* PagingIndicator.swift */,
 			);
 			path = PagingIndicator;
+			sourceTree = "<group>";
+		};
+		4E47D65E2BA2A7F200C504C2 /* MagnifyingClass */ = {
+			isa = PBXGroup;
+			children = (
+				4E47D65F2BA2A85500C504C2 /* MagnifyingClassHome.swift */,
+			);
+			path = MagnifyingClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				4E47D6542BA1AB7100C504C2 /* ThemeChangeView.swift in Sources */,
 				4E47D65D2BA1FD5500C504C2 /* PagingIndicator.swift in Sources */,
 				4E1B2FF72BA12F3D00F30379 /* ContentView.swift in Sources */,
+				4E47D6602BA2A85500C504C2 /* MagnifyingClassHome.swift in Sources */,
 				4E1B2FF92BA12F3D00F30379 /* Item.swift in Sources */,
 				4E1B2FF52BA12F3D00F30379 /* SwiftToolSetApp.swift in Sources */,
 				4E47D6582BA1B44400C504C2 /* TestThemeChangeView.swift in Sources */,
